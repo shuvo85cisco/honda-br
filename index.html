@@ -14,21 +14,21 @@
 
 </head>
 <header>
-    <section class="header-section navbar-text-color">
-        <nav class="navbar navbar-expand-lg navbar-light d-flex .header-section">
-            <div class="container">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+    <section class="header-section text-white mb-auto">
+        <nav class="navbar navbar-expand-lg navbar-light d-flex top-fixed">
+            <div class="container text-white">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Shop</a>
+                        <a class="nav-link active text-white" aria-current="page" href="#">Shop</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">News</a>
+                        <a class="nav-link active text-white" aria-current="page" href="#">News</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                        <a class="nav-link active text-white" aria-current="page" href="#">Contact</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active link_button" aria-current="page" href="#">Login</a>
@@ -37,13 +37,45 @@
             </div>
             </div>
         </nav>
-        <div class="row">
+        <div class="row d-flex align-items-center">
 
             <div class="col-lg-6">
                 <p>Computer controlled Digital Transission with Electronice advance</p>
+                <h1>HONDA CBR 3000</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Qui nisi labore excepturi sit sunt
+                    deleniti
+                    numquam <br> tempore voluptate inventore, nobis quis accusamus.</p>
+                <button type="button" class="btn modal_color" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Purchase
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-dark">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores itaque officiis
+                                    nam recusandae natus dolorum expedita repudiandae, enim animi odit harum,
+                                    necessitatibus quam aut rem porro, autem aliquid impedit repellendus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn modal_color">Agree</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
-            <div class="col-lg-6">
-                <img src="images/header-bike.png" alt="">
+            <div class="col-lg-6 img-fluid ">
+                <img src="images/header-bike.png" alt="" class="img-fluid">
             </div>
         </div>
     </section>
