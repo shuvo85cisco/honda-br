@@ -10,3 +10,12 @@
 .modal_color{
     background-color:#E76F51 ;
 }
+#best-bike{
+    color:#E76F51 ;
+    text-align:center;
+    margin-bottom: 80px;
+}
+.img_gray {
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);   
+}
